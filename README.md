@@ -1,16 +1,16 @@
 <div align="center">
 
-<!-- ⚡ Custom hand-built animated neural-network header (lives in /assets) -->
-<img src="assets/neural-header.svg" width="100%" alt="Viral Patel — Founder · AI Engineer · Finland"/>
+<!-- ⟡ Aurora Intelligence — hand-built animated SVG, northern lights as neural pathways -->
+<img src="assets/neural-header.svg" width="100%" alt="Viral Patel — Founder · AI Engineer · Suomi"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=900&color=00F0FF&center=true&vCenter=true&width=820&lines=Founder+%40+Ty%C3%B6Hunt+%E2%80%94+AI+that+reads+CVs+and+scores+every+job+in+Finland;LLM+pipelines+%C2%B7+batch+AI+scoring+%C2%B7+multi-agent+systems+in+production;23%2C500%2B+jobs+indexed+%C2%B7+~1%2C200%2Fday+%C2%B7+10+live+sources;B.Eng.+Artificial+Intelligence+%40+SAMK+%C2%B7+Helsinki+%F0%9F%87%AB%F0%9F%87%AE;while+(alive)+%7B+ship()%3B+%7D" alt="Typing intro"/>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=900&color=3DFFB8&center=true&vCenter=true&width=820&lines=Founder+%40+Ty%C3%B6Hunt+%E2%80%94+AI+that+reads+CVs+and+scores+every+job+in+Finland;LLM+pipelines+%C2%B7+batch+AI+scoring+%C2%B7+multi-agent+systems+in+production;23%2C500%2B+jobs+indexed+%C2%B7+~1%2C200%2Fday+%C2%B7+10+live+sources;B.Eng.+Artificial+Intelligence+%40+SAMK+%C2%B7+Helsinki+%F0%9F%87%AB%F0%9F%87%AE;while+(alive)+%7B+ship()%3B+%7D" alt="Typing intro"/>
 
 <br/><br/>
 
-<a href="https://tyohunt.com"><img src="https://img.shields.io/badge/⚡_TyöHunt-PRODUCTION-00f0ff?style=for-the-badge&labelColor=05070f"/></a>
-<a href="https://viralpatelz.com"><img src="https://img.shields.io/badge/🌐_viralpatelz.com-portfolio-7b2fff?style=for-the-badge&labelColor=05070f"/></a>
-<a href="https://instagram.com/viralpatelz"><img src="https://img.shields.io/badge/Instagram-@viralpatelz-ff2fb9?style=for-the-badge&logo=instagram&logoColor=white&labelColor=05070f"/></a>
-<img src="https://komarev.com/ghpvc/?username=Viralpatelz&style=for-the-badge&color=00f0ff&labelColor=05070f&label=VISITORS"/>
+<a href="https://tyohunt.com"><img src="https://img.shields.io/badge/⟡_TyöHunt-PRODUCTION-3dffb8?style=for-the-badge&labelColor=02030a"/></a>
+<a href="https://viralpatelz.com"><img src="https://img.shields.io/badge/🌌_viralpatelz.com-portfolio-7ee7ff?style=for-the-badge&labelColor=02030a"/></a>
+<a href="https://instagram.com/viralpatelz"><img src="https://img.shields.io/badge/Instagram-@viralpatelz-b593ff?style=for-the-badge&logo=instagram&logoColor=white&labelColor=02030a"/></a>
+<img src="https://komarev.com/ghpvc/?username=Viralpatelz&style=for-the-badge&color=3dffb8&labelColor=02030a&label=VISITORS"/>
 
 </div>
 
@@ -37,7 +37,7 @@
 > **[TyöHunt](https://tyohunt.com)** — an AI employment engine I designed, built and run alone: scrapers → dedup → LLM scoring → matching → payments. Every box below is production code.
 
 ```mermaid
-%%{init: {'theme':'dark','themeVariables':{'primaryColor':'#0a0e1f','primaryBorderColor':'#00f0ff','primaryTextColor':'#c9d1d9','lineColor':'#7b2fff','fontFamily':'Fira Code'}}}%%
+%%{init: {'theme':'dark','themeVariables':{'primaryColor':'#0a1224','primaryBorderColor':'#3dffb8','primaryTextColor':'#cfe8ff','lineColor':'#7ee7ff','fontFamily':'Fira Code'}}}%%
 flowchart LR
     A["🕷️ 10 scrapers<br/>~1,200 jobs/day"] --> B["🧹 Cross-source<br/>dedup engine"]
     B --> C[("🗄️ PostgreSQL<br/>23,500+ jobs")]
@@ -53,7 +53,7 @@ flowchart LR
 
 <div align="center">
 
-| ⚙️ TELEMETRY | VALUE |
+| ⟡ TELEMETRY | VALUE |
 |---|---|
 | Jobs indexed | **23,500+** and counting |
 | Ingestion rate | **~1,200 / day**, 10 live sources |
@@ -73,8 +73,8 @@ flowchart LR
 
 <img src="https://img.shields.io/badge/OpenAI_GPT-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 <img src="https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
-<img src="https://img.shields.io/badge/Multi--Agent_Systems-00f0ff?style=for-the-badge&labelColor=05070f"/>
-<img src="https://img.shields.io/badge/Prompt_%26_Cost_Engineering-7b2fff?style=for-the-badge&labelColor=05070f"/>
+<img src="https://img.shields.io/badge/Multi--Agent_Systems-3dffb8?style=for-the-badge&labelColor=02030a"/>
+<img src="https://img.shields.io/badge/Prompt_%26_Cost_Engineering-b593ff?style=for-the-badge&labelColor=02030a"/>
 
 **⚙️ Engine Room**
 
@@ -131,14 +131,14 @@ flowchart LR
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Viralpatelz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=05070f&title_color=00f0ff&icon_color=7b2fff&text_color=c9d1d9&ring_color=00f0ff" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Viralpatelz&layout=compact&theme=tokyonight&hide_border=true&bg_color=05070f&title_color=00f0ff&text_color=c9d1d9" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Viralpatelz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=02030a&title_color=3dffb8&icon_color=7ee7ff&text_color=cfe8ff&ring_color=3dffb8" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Viralpatelz&layout=compact&theme=tokyonight&hide_border=true&bg_color=02030a&title_color=3dffb8&text_color=cfe8ff" height="170"/>
 
-<img src="https://streak-stats.demolab.com/?user=Viralpatelz&theme=tokyonight&hide_border=true&background=05070f&ring=00f0ff&fire=ff2fb9&currStreakLabel=00f0ff&sideLabels=7b2fff" height="170"/>
+<img src="https://streak-stats.demolab.com/?user=Viralpatelz&theme=tokyonight&hide_border=true&background=02030a&ring=3dffb8&fire=b593ff&currStreakLabel=3dffb8&sideLabels=7ee7ff" height="170"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Viralpatelz&custom_title=Commit%20Signal&bg_color=05070f&color=00f0ff&line=7b2fff&point=ff2fb9&area=true&area_color=0a0e1f&hide_border=true" width="94%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Viralpatelz&custom_title=Aurora%20Signal&bg_color=02030a&color=3dffb8&line=7ee7ff&point=b593ff&area=true&area_color=0a1224&hide_border=true" width="94%"/>
 
-<a href="https://github.com/Viralpatelz"><img src="https://github-profile-trophy.vercel.app/?username=Viralpatelz&theme=discord&no-frame=true&no-bg=true&column=7&title_color=00f0ff" width="94%"/></a>
+<a href="https://github.com/Viralpatelz"><img src="https://github-profile-trophy.vercel.app/?username=Viralpatelz&theme=discord&no-frame=true&no-bg=true&column=7&title_color=3dffb8" width="94%"/></a>
 
 <!-- 🐍 generated daily by .github/workflows/snake.yml -->
 <img src="https://raw.githubusercontent.com/Viralpatelz/Viralpatelz/output/github-snake-dark.svg" width="94%" alt="contribution snake"/>
@@ -161,8 +161,8 @@ failure_protocol:  "if one way fails, find another. always ship."
 
 <br/>
 
-<img src="assets/footer.svg" width="100%" alt="system online — always shipping"/>
+<img src="assets/footer.svg" width="100%" alt="aurora online — always shipping"/>
 
-<sub>⚡ hand-crafted animated SVGs, zero templates · © Viral Patel · Helsinki, Finland</sub>
+<sub>⟡ Aurora Intelligence — hand-crafted animated SVGs, zero templates · © Viral Patel · Helsinki, Finland</sub>
 
 </div>
