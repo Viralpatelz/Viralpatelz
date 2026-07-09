@@ -3,7 +3,7 @@
 <!-- ⟡ Aurora Intelligence — hand-built animated SVG, northern lights as neural pathways -->
 <img src="assets/neural-header.svg" width="100%" alt="Viral Patel — Founder · AI Engineer · Suomi"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=900&color=3DFFB8&center=true&vCenter=true&width=820&lines=Founder+%40+Ty%C3%B6Hunt+%E2%80%94+AI+that+reads+CVs+and+scores+every+job+in+Finland;LLM+pipelines+%C2%B7+batch+AI+scoring+%C2%B7+multi-agent+systems+in+production;23%2C500%2B+jobs+indexed+%C2%B7+~1%2C200%2Fday+%C2%B7+10+live+sources;B.Eng.+Artificial+Intelligence+%40+SAMK+%C2%B7+Helsinki+%F0%9F%87%AB%F0%9F%87%AE;while+(alive)+%7B+ship()%3B+%7D" alt="Typing intro"/>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=18&pause=900&color=3DFFB8&center=true&vCenter=true&width=1000&height=45&lines=Founder+%40+Ty%C3%B6Hunt+%E2%80%94+AI+that+reads+CVs+and+scores+every+job+in+Finland;LLM+pipelines+%C2%B7+batch+AI+scoring+%C2%B7+multi-agent+systems+in+production;23%2C500%2B+jobs+indexed+%C2%B7+~1%2C200+added+daily+%C2%B7+10+live+sources;B.Eng.+Artificial+Intelligence+%40+SAMK+%C2%B7+Helsinki%2C+Finland;while+(alive)+%7B+ship()%3B+%7D" alt="Typing intro"/>
 
 <br/><br/>
 
