@@ -1,0 +1,123 @@
+<svg width="1000" height="320" viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05070f"/>
+      <stop offset="0.5" stop-color="#0a0e1f"/>
+      <stop offset="1" stop-color="#05070f"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="300" y1="120" x2="700" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00f0ff">
+        <animate attributeName="stop-color" values="#00f0ff;#7b2fff;#ff2fb9;#00f0ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#7b2fff">
+        <animate attributeName="stop-color" values="#7b2fff;#ff2fb9;#00f0ff;#7b2fff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="nodeGrad" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00f0ff"/>
+      <stop offset="1" stop-color="#00f0ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="320" fill="url(#bg)"/>
+
+  <!-- grid floor -->
+  <g stroke="#1a2340" stroke-width="1" opacity="0.6">
+    <path d="M0 260 L1000 260"/><path d="M0 285 L1000 285"/><path d="M0 310 L1000 310"/>
+    <path d="M100 250 L40 320"/><path d="M250 250 L215 320"/><path d="M400 250 L390 320"/>
+    <path d="M600 250 L610 320"/><path d="M750 250 L785 320"/><path d="M900 250 L960 320"/>
+  </g>
+
+  <!-- ==== LEFT NEURAL CLUSTER ==== -->
+  <g stroke="#233055" stroke-width="1.2">
+    <path id="l1" d="M60 70 L160 130"/><path id="l2" d="M60 160 L160 130"/>
+    <path id="l3" d="M60 240 L160 190"/><path id="l4" d="M160 130 L260 160"/>
+    <path id="l5" d="M160 190 L260 160"/><path id="l6" d="M60 160 L160 190"/>
+    <path id="l7" d="M260 160 L340 150"/>
+  </g>
+  <!-- data packets travelling left cluster -->
+  <circle r="3" fill="#00f0ff" filter="url(#softGlow)"><animateMotion dur="2.6s" repeatCount="indefinite" path="M60 70 L160 130 L260 160 L340 150"/></circle>
+  <circle r="3" fill="#7b2fff" filter="url(#softGlow)"><animateMotion dur="3.4s" begin="0.8s" repeatCount="indefinite" path="M60 240 L160 190 L260 160 L340 150"/></circle>
+  <circle r="2.5" fill="#ff2fb9" filter="url(#softGlow)"><animateMotion dur="3s" begin="1.6s" repeatCount="indefinite" path="M60 160 L160 130 L260 160 L340 150"/></circle>
+  <!-- left nodes -->
+  <g>
+    <circle cx="60" cy="70" r="5" fill="#0a0e1f" stroke="#00f0ff" stroke-width="1.5"><animate attributeName="r" values="5;7;5" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="60" cy="160" r="5" fill="#0a0e1f" stroke="#7b2fff" stroke-width="1.5"><animate attributeName="r" values="5;7;5" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="60" cy="240" r="5" fill="#0a0e1f" stroke="#ff2fb9" stroke-width="1.5"><animate attributeName="r" values="5;7;5" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="130" r="6" fill="#0a0e1f" stroke="#00f0ff" stroke-width="1.5"><animate attributeName="stroke" values="#00f0ff;#7b2fff;#00f0ff" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="190" r="6" fill="#0a0e1f" stroke="#7b2fff" stroke-width="1.5"><animate attributeName="stroke" values="#7b2fff;#ff2fb9;#7b2fff" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="160" r="7" fill="#0a0e1f" stroke="#00f0ff" stroke-width="2"><animate attributeName="r" values="7;9;7" dur="2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- ==== RIGHT NEURAL CLUSTER (mirror) ==== -->
+  <g stroke="#233055" stroke-width="1.2">
+    <path d="M940 70 L840 130"/><path d="M940 160 L840 130"/>
+    <path d="M940 240 L840 190"/><path d="M840 130 L740 160"/>
+    <path d="M840 190 L740 160"/><path d="M940 160 L840 190"/>
+    <path d="M740 160 L660 150"/>
+  </g>
+  <circle r="3" fill="#00f0ff" filter="url(#softGlow)"><animateMotion dur="2.8s" repeatCount="indefinite" path="M940 70 L840 130 L740 160 L660 150"/></circle>
+  <circle r="3" fill="#7b2fff" filter="url(#softGlow)"><animateMotion dur="3.6s" begin="1.2s" repeatCount="indefinite" path="M940 240 L840 190 L740 160 L660 150"/></circle>
+  <circle r="2.5" fill="#ff2fb9" filter="url(#softGlow)"><animateMotion dur="3.2s" begin="0.5s" repeatCount="indefinite" path="M940 160 L840 130 L740 160 L660 150"/></circle>
+  <g>
+    <circle cx="940" cy="70" r="5" fill="#0a0e1f" stroke="#00f0ff" stroke-width="1.5"><animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="160" r="5" fill="#0a0e1f" stroke="#7b2fff" stroke-width="1.5"><animate attributeName="r" values="5;7;5" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="240" r="5" fill="#0a0e1f" stroke="#ff2fb9" stroke-width="1.5"><animate attributeName="r" values="5;7;5" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="840" cy="130" r="6" fill="#0a0e1f" stroke="#00f0ff" stroke-width="1.5"><animate attributeName="stroke" values="#00f0ff;#ff2fb9;#00f0ff" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="840" cy="190" r="6" fill="#0a0e1f" stroke="#7b2fff" stroke-width="1.5"><animate attributeName="stroke" values="#7b2fff;#00f0ff;#7b2fff" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="160" r="7" fill="#0a0e1f" stroke="#7b2fff" stroke-width="2"><animate attributeName="r" values="7;9;7" dur="2.3s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- core ring around name -->
+  <circle cx="500" cy="150" r="118" fill="none" stroke="#233055" stroke-width="1" stroke-dasharray="4 8">
+    <animateTransform attributeName="transform" type="rotate" from="0 500 150" to="360 500 150" dur="30s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="150" r="132" fill="none" stroke="#00f0ff" stroke-width="0.8" opacity="0.35" stroke-dasharray="2 14">
+    <animateTransform attributeName="transform" type="rotate" from="360 500 150" to="0 500 150" dur="22s" repeatCount="indefinite"/>
+  </circle>
+  <!-- orbiting satellite dots -->
+  <circle r="4" fill="#00f0ff" filter="url(#softGlow)">
+    <animateMotion dur="9s" repeatCount="indefinite" path="M500 32 A118 118 0 1 1 499.9 32"/>
+  </circle>
+  <circle r="3" fill="#ff2fb9" filter="url(#softGlow)">
+    <animateMotion dur="14s" begin="3s" repeatCount="indefinite" path="M500 282 A132 132 0 1 1 499.9 282"/>
+  </circle>
+
+  <!-- TITLE -->
+  <text x="500" y="140" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="6" fill="url(#titleGrad)" filter="url(#glow)">VIRAL PATEL</text>
+  <text x="500" y="175" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="15" letter-spacing="4" fill="#8b9dc9">FOUNDER · AI ENGINEER · FINLAND</text>
+  <!-- blinking cursor prompt -->
+  <text x="500" y="205" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="13" fill="#00f0ff">&gt; building intelligence that ships_
+    <animate attributeName="opacity" values="1;1;0;1" dur="1.4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- scanline sweep -->
+  <rect x="0" y="0" width="1000" height="2" fill="#00f0ff" opacity="0.25">
+    <animate attributeName="y" values="0;318;0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- floating particles -->
+  <g fill="#3b4a75">
+    <circle cx="120" cy="40" r="1.5"><animate attributeName="cy" values="40;30;40" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="60" r="1.5"><animate attributeName="cy" values="60;48;60" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="45" r="1.5"><animate attributeName="cy" values="45;58;45" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="35" r="1.5"><animate attributeName="cy" values="35;25;35" dur="5.5s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="270" r="1.5"><animate attributeName="cy" values="270;282;270" dur="6.5s" repeatCount="indefinite"/></circle>
+    <circle cx="580" cy="275" r="1.5"><animate attributeName="cy" values="275;262;275" dur="5.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

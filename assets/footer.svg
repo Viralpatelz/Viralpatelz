@@ -1,0 +1,21 @@
+<svg width="1000" height="110" viewBox="0 0 1000 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1000" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05070f"/>
+      <stop offset="1" stop-color="#0a0e1f"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00f0ff"/>
+      <stop offset="1" stop-color="#7b2fff" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1000 0;1000 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="110" fill="url(#fbg)"/>
+  <!-- EKG heartbeat line = shipping pulse -->
+  <path d="M0 55 L380 55 L400 55 L415 25 L430 85 L445 40 L455 55 L1000 55" stroke="#233055" stroke-width="2" fill="none"/>
+  <path d="M0 55 L380 55 L400 55 L415 25 L430 85 L445 40 L455 55 L1000 55" stroke="url(#pulse)" stroke-width="2.5" fill="none"/>
+  <text x="500" y="95" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="12" letter-spacing="3" fill="#8b9dc9">SYSTEM ONLINE · ALWAYS SHIPPING
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </text>
+</svg>
