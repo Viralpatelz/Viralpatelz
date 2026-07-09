@@ -1,21 +1,37 @@
-<svg width="1000" height="110" viewBox="0 0 1000 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="130" viewBox="0 0 1000 130" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="fbg" x1="0" y1="0" x2="1000" y2="110" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#05070f"/>
-      <stop offset="1" stop-color="#0a0e1f"/>
+    <linearGradient id="fsky" x1="0" y1="0" x2="0" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a1224"/>
+      <stop offset="1" stop-color="#02030a"/>
     </linearGradient>
-    <linearGradient id="pulse" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#00f0ff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#00f0ff"/>
-      <stop offset="1" stop-color="#7b2fff" stop-opacity="0"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-1000 0;1000 0" dur="4s" repeatCount="indefinite"/>
+    <linearGradient id="faur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3dffb8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#3dffb8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#b593ff" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="fpulse" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3dffb8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#3dffb8"/>
+      <stop offset="1" stop-color="#7ee7ff" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1000 0;1000 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="fblur" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="10"/></filter>
   </defs>
-  <rect width="1000" height="110" fill="url(#fbg)"/>
-  <!-- EKG heartbeat line = shipping pulse -->
-  <path d="M0 55 L380 55 L400 55 L415 25 L430 85 L445 40 L455 55 L1000 55" stroke="#233055" stroke-width="2" fill="none"/>
-  <path d="M0 55 L380 55 L400 55 L415 25 L430 85 L445 40 L455 55 L1000 55" stroke="url(#pulse)" stroke-width="2.5" fill="none"/>
-  <text x="500" y="95" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="12" letter-spacing="3" fill="#8b9dc9">SYSTEM ONLINE · ALWAYS SHIPPING
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  <rect width="1000" height="130" fill="url(#fsky)"/>
+  <g filter="url(#fblur)">
+    <path d="M-50 70 C200 20 420 75 620 35 C800 5 900 55 1050 25 L1050 -10 L-50 -10 Z" fill="url(#faur)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;28 8;-20 4;0 0" dur="13s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#cfe8ff">
+    <circle cx="120" cy="30" r="0.9"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="20" r="1"><animate attributeName="opacity" values="1;0.2;1" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="28" r="0.9"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="890" cy="22" r="1"><animate attributeName="opacity" values="1;0.25;1" dur="3.8s" repeatCount="indefinite"/></circle>
+  </g>
+  <path d="M0 72 L380 72 L400 72 L415 45 L430 96 L445 58 L455 72 L1000 72" stroke="#16283a" stroke-width="2" fill="none"/>
+  <path d="M0 72 L380 72 L400 72 L415 45 L430 96 L445 58 L455 72 L1000 72" stroke="url(#fpulse)" stroke-width="2.2" fill="none"/>
+  <text x="500" y="114" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="12" letter-spacing="4" fill="#9fd4c8">AURORA ONLINE · ALWAYS SHIPPING
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="3.5s" repeatCount="indefinite"/>
   </text>
 </svg>
